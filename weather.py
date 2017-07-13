@@ -26,9 +26,9 @@ json_string = f.read()
 #print json_string
 
 #Output to JSON file
-with open('weather.json', 'wb') as hi_file:
+with open('weather'+dt+'.json', 'wb') as hi_file:
   hi_file.write(json_string)
 
 f.close()
 
-#add comment to branch paul
+
